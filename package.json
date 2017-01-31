@@ -1,0 +1,31 @@
+{
+  "name": "kangeyam",
+  "version": "1.0.0",
+  "description": "Bull for the things",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lib/ --fix"
+  },
+  "keywords": [
+    "IOT",
+    "Kangeyam",
+    "pub"
+  ],
+  "author": "Manikanth",
+  "license": "MIT",
+  "dependencies": {
+    "mosca": "2.2.0",
+    "mongodb": "~2.1.4"
+  },
+  "devDependencies": {
+    "eslint": "3.14.1",
+    "eslint-config-airbnb-base": "11.0.1",
+    "eslint-plugin-import": "2.2.0",
+    "jsdoc": "3.4.3"
+  }
+}
