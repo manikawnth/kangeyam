@@ -4,6 +4,7 @@
         "import"
     ],
     "rules" : {
-        "max-len" : ["error", { "ignoreComments": true }]
+        "max-len" : ["error", { "ignoreComments": true }],
+        "no-underscore-dangle" : "off"
     }
 }
