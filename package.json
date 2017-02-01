@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test",
     "lint": "eslint lib/ --fix"
   },
   "keywords": [
@@ -19,13 +19,17 @@
   "author": "Manikanth",
   "license": "MIT",
   "dependencies": {
+    "debug": "2.6.0",
+    "mongodb": "~2.1.4",
     "mosca": "2.2.0",
-    "mongodb": "~2.1.4"
+    "zeromq": "4.1.1"
   },
   "devDependencies": {
+    "chai": "3.5.0",
     "eslint": "3.14.1",
     "eslint-config-airbnb-base": "11.0.1",
     "eslint-plugin-import": "2.2.0",
-    "jsdoc": "3.4.3"
+    "jsdoc": "3.4.3",
+    "mocha": "3.2.0"
   }
 }

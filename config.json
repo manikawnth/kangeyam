@@ -16,6 +16,19 @@
             "connURI" : "mongodb://localhost:27017/test",
             "collection" : "test" 
         }
-    }
+    },
+
+    "topicSettings" : [
+        {
+            "topic" : "bull-speed-monitor",
+            "ventillatorPort" : 3030,
+            "workerInstances" : 1
+        },
+        {
+            "topic" : "audience-pulse-monitor",
+            "ventillatorPort" : 3031,
+            "workerInstances" : 2
+        }
+    ]
 
 }

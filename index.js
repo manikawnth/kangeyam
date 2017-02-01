@@ -1,7 +1,7 @@
 global['kevents'] = require('./lib/kemitter.js');
 
-var broker = require('./lib/broker');
-var config = require('./config.json')
+const config = require('./config.json');
+const broker = require('./lib/broker');
 
-var server = new broker(config);
+const server = new broker(config);
 server.start();
